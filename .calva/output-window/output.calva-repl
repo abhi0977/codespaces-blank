@@ -1,0 +1,104 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉knight.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉knight.core꞉> 
+nil
+clj꞉knight.aoc.d1꞉> 
+["1000\n2000\n3000" "4000" "5000\n6000" "7000\n8000\n9000" "10000"]
+clj꞉knight.aoc.d1꞉> 
+["1000\n2000\n3000" "4000" "5000\n6000" "7000\n8000\n9000" "10000"]
+clj꞉knight.aoc.d1꞉> 
+["1000\n2000\n3000" "4000" "5000\n6000" "7000\n8000\n9000" "10000"]
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/calories
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/calories
+clj꞉knight.aoc.d1꞉> 
+; Execution error (ArityException) at knight.aoc.d1/eval7884 (form-init5839843718894360101.clj:14).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉knight.aoc.d1꞉> 
+[1000
+2000
+3000 4000 5000
+6000 7000
+8000
+9000 10000]
+nil
+clj꞉knight.aoc.d1꞉> 
+[1000
+2000
+3000 4000 5000
+6000 7000
+8000
+9000 10000]
+nil
+clj꞉knight.aoc.d1꞉> 
+; Syntax error compiling at (src/knight/d1.clj:16:1).
+; Unable to resolve symbol: dosomething in this context
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/dosomething
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/dosomething
+clj꞉knight.aoc.d1꞉> 
+(6000 4000 11000 24000 10000)
+clj꞉knight.aoc.d1꞉> 
+(6000 4000 11000 24000 10000)
+clj꞉knight.aoc.d1꞉> 
+(6000 4000 11000 24000 10000)
+clj꞉knight.aoc.d1꞉> 
+24000
+clj꞉knight.aoc.d1꞉> 
+; Syntax error compiling at (src/knight/d1.clj:21:5).
+; Unable to resolve symbol: calculate-total-calories in this context
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/calculate-total-calories
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+24000
+nil
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+24000
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+69795
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+(4000 6000 10000 11000 24000)
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+(10000 11000 24000)
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+45000
+clj꞉knight.aoc.d1꞉> 
+#'knight.aoc.d1/problem-1
+clj꞉knight.aoc.d1꞉> 
+208437
+clj꞉knight.aoc.d1꞉> 
