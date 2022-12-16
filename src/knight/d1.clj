@@ -9,16 +9,25 @@
    (map #(Integer/parseInt %))
    (apply +)))
 
-(defn problem-1 []
-  (def calories
-    (->
-     "input.txt"
-     (slurp)
-     (str/split #"\n\n")))
+(def calories
+  (->
+   "input.txt"
+   (slurp)
+   (str/split #"\n\n")))
 
+(defn problem-1 []
   (->>
    calories
    (map calculate-total-calories)
    (reduce max)))
 
+(defn problem-2 []
+  (->>
+   calories
+   (map calculate-total-calories)
+   (sort)
+   (take-last 3)
+   (apply +)))
+
 (problem-1)
+(problem-2)
